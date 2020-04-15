@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header #logo {
+    padding: 32px;
+    text-align: center;
+}
+
+header .menu {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0 ,0.4);
+    border-bottom: 1px solid rgba(0, 0, 0 ,0.4);
+    text-align: center;
+    color: #686868;
+}
+
+header .login {
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+}
+
+header .login ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header .login li {
+    margin: auto;
+}
+
+header .login a {
+    text-decoration: none;
+    color: #686868;
+}
+
+header .login ul:nth-child(1)::after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: rgba(0, 0, 0 ,0.4);
+    position: absolute;
+    top: 4px;
+    left: 83px;
+}
+
+header .menu .items {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header .menu .items {
+    margin: auto;
+}
+
+header .menu .items ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu .items li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 60px;
+}
+
+header .menu .items li:last-child {
+    margin-right: 0;
+}
+
+header .menu .items a {
+    text-decoration: none;
+    color: #686868;   
+}
+
+header .search__bag {
+    position: relative;
+}
+
+header .search__bag::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(0, 0, 0 ,0.4);
+    bottom: -6px;
+    left: 30px;
+}
+
+header .search__bag img {
+    width: 17px;
+    margin-right: 10px;
+}
+
+header .search__bag span{
+    margin-right: 20px;
+}
+
+header .search__bag span:last-child {
+    margin-right: 0;
+}
+
+main {
+    padding: 24px;
+}
+
+main .path {
+    margin-bottom: 10px;
+}
+
+main .path span{
+    font-size: 12px;
+    line-height: 18px;
+    color: #AEB6C1;
+}
+
+main #product__navigation {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    position: relative;
+}
+
+main #product__navigation p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #DE8F75;
+    margin-bottom: 5px;
+}
+
+main #product__navigation .pictures__container {
+    text-align: center;
+}
+
+main #product__navigation .video__picture img {
+    width: 80%;
+    height: 60px;
+}
+
+main #product__navigation .video__picture::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 60px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+main #product__navigation .video__play {
+    position: absolute;
+    top: 35px;
+    left: 42px;
+    cursor: pointer;
+}
+
+main #product__navigation .pictures__container .up__picture {
+    margin-bottom: 10px;
+}
+
+main #product__navigation .pictures__container .pictures img {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 120px;
+}
+
+main #product__navigation .pictures__container .pictures .pictures__modal {
+    position: relative;
+}
+
+main #product__navigation .pictures__container .pictures .pictures__modal::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 12px;
+    background-color: rgba(255, 255, 255, 0.4); 
+}
+
+main #product__navigation .main__picture {
+    text-align: center;
+}
+
+main #product__navigation .main__picture img {
+    width: 300px;
+}
+
+main #product__navigation .color p {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main #product__navigation .color .block__colors .disc{
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+main #product__navigation .color .block__colors .fucsia {
+    background-color: #A9095E;
+}
+
+main #product__navigation .color .block__colors .blue {
+    background-color: #2A5A75;    
+}
+
+main #product__navigation .color .block__colors .brown {
+    background-color: #A14830;
+}
+
+main #product__navigation .color .block__colors .black {
+    background-color: #000000;
+}
