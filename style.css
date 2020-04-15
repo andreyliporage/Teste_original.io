@@ -197,34 +197,170 @@ main #product__navigation .main__picture {
 }
 
 main #product__navigation .main__picture img {
+    width: 400px;
+}
+
+main #product__navigation .picture__info {
+    padding: 16px;
+    border: 2px solid #D2E1DF;
     width: 300px;
+    height: 450px;
+}
+
+main #product__navigation .picture__info .identification h2 {
+    font-size: 26px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #202020;
+    margin-bottom: 5px;
+}
+
+main #product__navigation .picture__info .identification span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #202020;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+main #product__navigation .picture__info .price .old__price{
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: line-through;
+    color: #E35442;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+main #product__navigation .picture__info .price .new__price {
+    font-size: 20px;
+    color: #686868;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+main #product__navigation .picture__info .price .credit__card{
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7f7f7f;
+    margin-bottom: 34px;
+}
+
+main #product__navigation .color {
+    margin-bottom: 20px;
 }
 
 main #product__navigation .color p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #202020;
     display: inline-block;
     margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+main #product__navigation .color span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f75aa;
 }
 
 main #product__navigation .color .block__colors .disc{
     display: inline-block;
     margin-left: 10px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
 }
 
-main #product__navigation .color .block__colors .fucsia {
+main #product__navigation .color .block__colors #Fucsia {
     background-color: #A9095E;
 }
 
-main #product__navigation .color .block__colors .blue {
+main #product__navigation .color .block__colors #Azul {
     background-color: #2A5A75;    
 }
 
-main #product__navigation .color .block__colors .brown {
+main #product__navigation .color .block__colors #Marrom {
     background-color: #A14830;
 }
 
-main #product__navigation .color .block__colors .black {
+main #product__navigation .color .block__colors #Preto {
     background-color: #000000;
+}
+
+main #product__navigation .size {
+    margin-bottom: 10px;
+}
+
+main #product__navigation .size p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #202020;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+main #product__navigation .size span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f75aa;
+    margin-right: 50px;
+}
+
+main #product__navigation .size a {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #de8f75;
+}
+
+main #product__navigation .sizes {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+main #product__navigation .sizes div {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 25px;
+    border: 1px solid #ebebeb;
+    margin-right: 2.5px;
+    font-size: 12px;
+    line-height: 23px;
+    color: #5f75aa;
+    cursor: pointer;
+}
+
+main #product__navigation .sizes div:last-child {
+    margin-right: 0;
+}
+
+main #product__navigation button {
+    border: none;
+    padding: 16px 24px;
+    background-color: #32917b;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+main #product__navigation .picture__info .foot{
+    font-size: 14px;
+    line-height: 28px;
+    color: #202020;
+    text-align: justify;
 }
