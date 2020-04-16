@@ -132,6 +132,7 @@ main #product__navigation {
     display: grid;
     grid-template-columns: 10% 45% 45%;
     position: relative;
+    margin-bottom: 40px;
 }
 
 main #product__navigation p {
@@ -363,4 +364,68 @@ main #product__navigation .picture__info .foot{
     line-height: 28px;
     color: #202020;
     text-align: justify;
+}
+
+main #banner__slide h3 {
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #DE8F75;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+main #banner__slide .banner__pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+main #banner__slide .banner__pictures img {
+    width: 90%;
+    margin-right: 30px;
+}
+
+main #banner__slide .banner__pictures .info {
+    display: flex;
+    align-items: center;    
+}
+
+main #banner__slide .banner__pictures p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 23px;
+    color: #202020;
+    margin-right: 117px;
+}
+
+main #banner__slide .banner__pictures .picture04 p {
+    margin-right: 138px;
+}
+
+main #banner__slide .banner__pictures .disc {
+    display: inline-block;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+main #banner__slide .banner__pictures #Vermelho {
+    background-color: #a9095e;
+}
+
+main #banner__slide .banner__pictures #Azul {
+    background-color: #6b85c1;
+}
+
+main #banner__slide .banner__pictures #Marrom {
+    background-color: #a14830;
+}
+
+main #banner__slide .banner__pictures #Preto {
+    background-color: black;
 }
