@@ -390,6 +390,7 @@ main #banner__slide .banner__pictures img {
 
 main #banner__slide .banner__pictures .info {
     display: flex;
+    justify-content: space-around;
     align-items: center;    
 }
 
@@ -398,11 +399,6 @@ main #banner__slide .banner__pictures p {
     font-size: 16px;
     line-height: 23px;
     color: #202020;
-    margin-right: 117px;
-}
-
-main #banner__slide .banner__pictures .picture04 p {
-    margin-right: 138px;
 }
 
 main #banner__slide .banner__pictures .disc {
