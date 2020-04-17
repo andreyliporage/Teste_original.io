@@ -395,10 +395,14 @@ main #banner__slide .banner__pictures .info {
 }
 
 main #banner__slide .banner__pictures p {
-    text-align: left;
     font-size: 16px;
     line-height: 23px;
     color: #202020;
+    margin-left: -45px;
+}
+
+main #banner__slide .banner__pictures .picture03 p {
+    margin-left: -225px;
 }
 
 main #banner__slide .banner__pictures .disc {
